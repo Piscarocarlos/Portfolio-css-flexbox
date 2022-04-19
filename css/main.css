@@ -93,3 +93,21 @@ footer {
     text-align: center;
     padding: 6px 0;
 }
+
+h3 {
+    margin-top: -60px;
+}
+
+.about {
+    margin-left: 100px;
+}
+
+.profile {
+    border: 10px solid var(--primary);
+}
+
+.profile img {
+    position: relative;
+    top: -50px;
+    right: -80px;
+}
