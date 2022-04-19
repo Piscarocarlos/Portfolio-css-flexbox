@@ -1,0 +1,95 @@
+:root {
+    --primary: #1F3C61;
+    --secondary: #DDDDE2;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 12px;
+}
+
+.socials {
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--primary);
+}
+
+a:hover {
+    border-bottom: 2px solid var(--primary);
+}
+
+section {
+    margin: 50px;
+}
+
+.img-box img {
+    width: 450px;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+span,
+h2 {
+    color: var(--primary);
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 9px;
+}
+
+::selection {
+    background-color: var(--primary);
+    color: white;
+}
+
+.pricing .item {
+    text-align: center;
+}
+
+.item {
+    width: 25%;
+    background-color: var(--secondary);
+    padding: 60px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-property: transform;
+    transition-delay: .1s;
+}
+
+.item:hover {
+    transform: scale(1.06);
+}
+
+.item hr {
+    width: 120px;
+    border: 1px solid;
+}
+
+footer {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 6px 0;
+}
