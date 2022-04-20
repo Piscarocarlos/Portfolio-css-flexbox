@@ -32,7 +32,7 @@ a:hover {
     border-bottom: 2px solid var(--primary);
 }
 
-section {
+.m-50 {
     margin: 50px;
 }
 
@@ -94,7 +94,7 @@ footer {
     padding: 6px 0;
 }
 
-h3 {
+.profession {
     margin-top: -60px;
 }
 
@@ -110,4 +110,61 @@ h3 {
     position: relative;
     top: -50px;
     right: -80px;
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.banner {
+    padding: 30px;
+    margin: 20px 0;
+    color: white;
+}
+
+.banner h3 {
+    font-size: 3em;
+    margin-bottom: -20px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.col-8 {
+    width: 65%;
+}
+
+.col-4 {
+    width: 35%;
+}
+
+.bloc {
+    max-width: 1120px;
+    margin: auto;
+}
+
+.col-8 h3 {
+    font-size: 2.2em;
+}
+
+.form-group label {
+    display: block;
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.form-control {
+    display: block;
+    width: 500px;
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    height: 80px;
 }
